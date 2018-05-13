@@ -1,0 +1,141 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    width: 1000px;
+    margin: 0px auto;
+    
+}
+.menu_top{
+    background: lightblue;
+    height: 40px;
+    width: 1000px;
+}
+.menu_top ul{
+    margin: 0px;
+    padding: 0px;
+}
+.menu_top ul li{
+    list-style: none;
+    float: left;
+}
+.menu_top ul li a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    line-height: 40px;
+    padding: 0px 20px 0px 20px;
+    border-right: 1px solid #ccc;
+   
+}
+.menu_top ul li a.active{
+    background:#4CAF50;
+    color: whitesmoke;
+}
+.menu_top ul li a:hover:not(.active){
+    background-color: #555;
+    color: white;
+}
+.banner{   
+    height: auto;
+    width: 1000px;
+}
+.main .left{
+    /*background: lightblue;*/
+    width: 250px;
+    float: left;   
+    min-height: 400px;
+}
+.main .right{
+    /*background: greenyellow; */
+    width: 750px;
+    min-height: 400px;
+    float: left;
+
+}
+
+.footer{
+   /* background: gray;*/
+    clear: left;
+    width: 1000px;
+    height: 60px;
+    line-height: 60px;   
+    text-align: center;
+    font-size: 18px;
+    border-top-width: 4px;
+    border-top-color:#ee474e;
+    border-top-style: solid;
+}
+.main .left ul{
+    margin: 0px;
+    padding: 0px;
+    border: 1px solid #ccc;
+    margin: -15px 0px 0px 0px;
+}
+.main .left ul li{
+    list-style: none;
+    
+}
+.main .left ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    display: block;
+    line-height: 32px;
+    background: url(../image/iconcheck.png) no-repeat 1px;
+    text-indent: 20px;
+    line-height: 30px;
+    height: 25px;
+}
+.main .left h3{
+    background:#fa4e02 url(../image/iconmenu.png) no-repeat 1px;
+    height: 50px;
+    margin-top: 0px;
+    text-align: left;/* có thể ko cần dùng, nó tự mặc định*/
+    text-indent: 36px; /*thuộc tính thụt vào đầu dòng*/
+    font-size: 16px;
+    line-height: 52px;
+    color: black;
+}
+.main .left ul li img{
+    height: 300px;
+ 
+}
+.main .left ul li a:hover{
+    /*background: lightblue; thay đổi nền */
+    color: orange; /*thay đổi màu chữ*/
+}
+/*.main .left ul li a.active{
+    background: ghostwhite;
+    color: black;
+}*/
+.banner img{
+    width: 1000px;
+}
+.main .right ul{
+    margin: 0px;
+    padding: 0px;
+}
+.main .right ul li{
+    list-style: none;
+    clear: left;
+    border-bottom: 2px solid #ccc;
+    float: left;
+    margin-bottom: 20px;
+   
+}
+.main .right ul li img{
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    
+}
+.main .right ul li h2{
+    font-size: 18px;
+    margin-top: 0px;
+}
+.main{
+    margin-top: 10px;
+}
+
+    
